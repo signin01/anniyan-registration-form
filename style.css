@@ -1,0 +1,86 @@
+body {
+    font-family: "Buda", serif;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: DarkGray; /* Fixed: No space */
+}
+
+.card {
+    background-color: white;
+    width: 450px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.project1-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 4px solid blue;
+}
+
+.heading1 {
+    background-color: RoyalBlue;
+    color: White;
+    padding: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+form {
+    padding: 35px;
+}
+
+.input1 {
+    margin-bottom: 15px;
+}
+
+.input1 label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: dimgray; /* Fixed: One word */
+}
+
+.input1 input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid lightgray;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.error {
+    color: red;
+    font-size: 13px;
+    display: block;
+    margin-top: 5px;
+    height: 15px;
+}
+
+#submitbtn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background-color: Silver;
+    color: White;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: not-allowed;
+    transition: 0.3s ease;
+    margin-top: 10px;
+}
+
+#submitbtn:enabled {
+    background-color: RoyalBlue;
+    cursor: pointer;
+}
